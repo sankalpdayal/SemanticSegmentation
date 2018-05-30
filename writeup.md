@@ -66,13 +66,13 @@ The weights for the model can be found in file [/data/weights/model_weights](./d
 
 Once the model had achieved the desired final score, I tested the model in the simulation to allow the quad to find and then follow the target. First the quad searched for the target and once it found it followed it well. Following screenshots show different times when the quad was following the hero.
 
-[image_3]: ./images/Screen-Shot-2018-05-25-at-1.49.52-PM.png
+[image_3]: ./images/Follow1.png
 ![Following 1][image_3] 
 
-[image_4]: ./images/Screen Shot 2018-05-25 at 1.50.21 PM.png 
+[image_4]: ./images/Follow2.png 
 ![Following 2][image_4]
 
-[image_5]:  ./images/Screen Shot 2018-05-25 at 1.51.05 PM.png 
+[image_5]:  ./images/Follow3.png 
 ![Following 3][image_5]  
 
 
