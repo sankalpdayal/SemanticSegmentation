@@ -27,7 +27,7 @@ and concatenated with the larger input layer coming from encoder. This concatena
 
 
 ## Network Architecture ##
-My final network has 3 encoders, single 1x1 Convolution Layer and 3 decoders. The implementation of the model is in the section `Model` in the notebook `model_training.ipynb`. The design showing layers sizes, connections and skip connections in the following diagram.
+My final network has 3 encoders, single 1x1 Convolution Layer and 3 decoders. The implementation of the model is in the section `Model` in the notebook [`model_training.ipynb`](./code/model_training.ipynb). The design showing layers sizes, connections and skip connections in the following diagram.
 
 [image_1]: ./images/Architecture.JPG
 ![Architecture][image_1] 
@@ -55,7 +55,7 @@ Following plots show the training and validation errors for different trials.
 The training was performed on AWS EC2 p2.xlarge instance with workers as 2.
 
 ## Results ## 
-The weights for the model can be found in file [/data/weights/model_weights](./data/weights/model_weights). When these weights and the model chosen is used I can following 
+The weights for the model can be found in file [/data/weights/model_weights](./data/weights/model_weights). When these weights and the model chosen is used I get following values for the metrics.
 
 |Metric|Value|
 |------|-----|
